@@ -74,7 +74,7 @@ def user_view(cpw):
 			# 口令👌：{cpw}
 			""")
 		with col2:
-			click_game()
+			# click_game()
 			pass
 			
 		show_img(cpw_path)
