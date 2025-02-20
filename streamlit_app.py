@@ -6,7 +6,7 @@ import time
 import streamlit as st
 from streamlit_monaco import st_monaco
 from src.use_pygment import code_to_image
-from src import page_link_from_flowUs
+from src.hlsyyds import page_link_from_flowUs,self_study_route
 from src.utils import (create_folder,
 						save_image,
 						get_subdirectory_names,
@@ -214,6 +214,7 @@ def main():
 		admin_view(st.session_state.cpw)
 	elif st.session_state.cpw == "hlsyyds":
 		page_link_from_flowUs.link_button()
+		self_study_route.png_show()
 	elif st.session_state.cpw != "":
 		user_view(st.session_state.cpw)
 	

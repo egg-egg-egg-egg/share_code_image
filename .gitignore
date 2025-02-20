@@ -7,6 +7,8 @@ data/c++
 
 src/__pycache__
 
+src/hlsyyds/__pycache__
+
 src/execsandbox.py
 
 src/experimentalFunction
