@@ -101,9 +101,8 @@ def show_img(cpw_dirpath:str):
 
 
 	if input_text:
-		default_imag_format = "{}.png"
-		file_path = os.path.join(cpw_dirpath, default_imag_format.format(input_text))
-		st.image(file_path, caption=f'{input_text}题代码',width=700)
+		image_path = os.path.join(cpw_dirpath, input_text)
+		st.image(image_path, caption=f'{input_text}题代码',width=700)
 
 @st.dialog("上传代码")
 def dalog_uploadCode(cur_set_path:str):
