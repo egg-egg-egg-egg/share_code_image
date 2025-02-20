@@ -213,6 +213,8 @@ def main():
 		admin_view(st.session_state.cpw)
 	elif st.session_state.cpw == "hlsyyds":
 		page_link_from_flowUs.link_button()
+
+		st.write("## 高效刷题流程")
 		st.image("self_train.png")
 	elif st.session_state.cpw != "":
 		user_view(st.session_state.cpw)
