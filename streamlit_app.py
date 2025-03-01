@@ -1,7 +1,7 @@
 import json
 import os
 import time
-
+import shutil
 
 import streamlit as st
 from streamlit_monaco import st_monaco
@@ -175,7 +175,8 @@ def admin_view(cpw:str|None):
 					return
 				selected_cpw_path = os.path.join(ImgPath, selected_cpw)
 				if os.path.exists(selected_cpw_path):
-					os.rmdir(selected_cpw_path)
+					
+					shutil.rmtree(selected_cpw_path)
 					st.toast(f'口令 {selected_cpw} 已删除', icon='🗑️')
 				else:
 					st.warning(f'口令 {selected_cpw} 不存在', icon='⚠️')
