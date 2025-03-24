@@ -5,7 +5,7 @@ LINKS = {
     "C1":"https://flowus.cn/kyyy/share/10d9031f-91b7-4527-9aab-a605d9bdff5e?code=DD8PQT",
     "C2":"https://flowus.cn/kyyy/share/22c69717-3786-485d-9879-77af0075c9fb?code=DD8PQT",
     "C3":"https://flowus.cn/kyyy/share/70e86289-bd9d-4c99-8321-1803f4dc29bd?code=DD8PQT",
-    "C4":"https://flowus.cn/kyyy/share/4568d202-4f12-436e-83f5-63d9be9c7b4c?code=DD8PQT",
+    "C4":"https://flowus.cn/kyyy/share/48b3bc6e-e5bb-4ef6-89c8-f4730947af5d?code=DD8PQT",
 }   
     
 def link_button():
